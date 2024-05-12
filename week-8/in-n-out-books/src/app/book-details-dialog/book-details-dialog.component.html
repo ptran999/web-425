@@ -1,0 +1,21 @@
+<!--
+    Title: book-details-dialog.component.html
+    Author: Phuong Tran
+    Date: 8/05/2024
+    Description: Assignment 5.4 - Dialogs.
+-->
+
+<mat-card>
+  <mat-card-title class="blue">
+    {{ book.title }}
+  </mat-card-title>
+  <mat-card-content>
+    <div fxLayout="column">ISBN: {{ book.isbn }}</div>
+    <div fxLayout="column">Author(s): {{ book.authors }}</div>
+    <div fxLayout="column">Description: {{ book.description }}</div>
+    <div fxLayout="column">Pages: {{ book.numOfPages }}</div>
+  </mat-card-content>
+  <mat-card-actions>
+    <button mat-raised-button color="accent" matDialogClose="confirm">OK</button>
+  </mat-card-actions>
+</mat-card>

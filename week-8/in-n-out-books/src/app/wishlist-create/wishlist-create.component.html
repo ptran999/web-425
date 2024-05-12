@@ -1,0 +1,20 @@
+<!--
+    Title: wishlist-create.component.html
+    Author: Phuong Tran
+    Date: 8/05/2024
+    Description: Exercise 6.2 - Output Properties.
+-->
+
+<form fxLayout="column">
+  <mat-form-field fxFlex appearance="fill">
+    <mat-label>Title</mat-label>
+    <input type="text" name="title" matInput [(ngModel)]="wishlistItem.title"/>
+  </mat-form-field>
+  <mat-form-field fxFlex appearance="fill">
+    <mat-label>Author</mat-label>
+    <input type="text" name="authors" matInput [(ngModel)]="wishlistItem.authors"/>
+  </mat-form-field>
+  <button mat-button color="primary" (click)="addItem()">Add to Wishlist</button>
+</form>
+
+

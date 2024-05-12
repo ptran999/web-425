@@ -1,0 +1,20 @@
+/*
+    Title: about.component.css
+    Author: Phuong Tran
+    Date: 03/31/2024
+    Description: Routing in Action.
+*/
+
+.col-4 {
+  width: 400px;
+  margin: 50px auto;
+}
+
+img {
+  width: 400px;
+}
+
+.col-8 {
+  width: 600px;
+  margin: 50px auto;
+}

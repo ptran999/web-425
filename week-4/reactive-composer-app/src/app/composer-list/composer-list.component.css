@@ -1,0 +1,27 @@
+/*
+    Title: composer-list.component.css
+    Author: Phuong Tran
+    Date: 03/31/2024
+    Description: composer-list styles.
+*/
+
+.thead-dark {
+  background-color: black;
+  color: white;
+}
+
+table {
+  width: 700px;
+  margin: 100px auto;
+}
+
+.form {
+  width: 700px;
+  margin: 75px auto 0 auto;
+}
+
+input {
+  width: 30%;
+  margin-bottom: 5px;
+  float: right;
+}

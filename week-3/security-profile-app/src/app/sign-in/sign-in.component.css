@@ -1,0 +1,12 @@
+/*
+    Title: sign-in.component.css
+    Author: Phuong Tran
+    Date: 04/07/2024
+    Description: Passing Data to Routes, Part 2.
+*/
+
+.card {
+  width: 35%;
+  margin-top: 10% !important;
+  margin: 0 auto;
+}

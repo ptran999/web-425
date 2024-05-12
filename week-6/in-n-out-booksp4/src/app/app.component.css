@@ -1,0 +1,16 @@
+/*
+    Title: app.component.css
+    Author: Phuong Tran
+    Date: 03/31/2024
+    Description: Routing in Action.
+*/
+
+.logo {
+  margin-top: 5px;
+}
+
+.main-container {
+  padding-top: 25px;
+  width: 80%;
+  margin: 0 auto;
+}

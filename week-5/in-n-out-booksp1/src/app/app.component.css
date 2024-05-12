@@ -1,0 +1,16 @@
+/*
+    Title: app.component.css
+    Author: Phuong Tran
+    Date: 18/04/2024
+    Description: Exercise 5.2 - Navigation and Layout
+*/
+
+.logo {
+  margin-top: 5px;
+}
+
+.main-container {
+  padding-top: 25px;
+  width: 80%;
+  margin: 0 auto;
+}

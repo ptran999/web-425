@@ -1,0 +1,18 @@
+<!--
+    Title: composer-details.component.html
+    Author: Phuong Tran
+    Date: 04/07/2024
+    Description: Passing Data to Routes, Part 1.
+-->
+
+<!-- The display for the requested composer -->
+<div class="row">
+  <div class="col-12">
+    <ul class="list-group">
+      <li class="list-group-item">Composer ID: {{ composer.composerId }}</li>
+      <li class="list-group-item">Full name: {{ composer.fullName}}</li>
+      <li class="list-group-item">Genre: {{ composer.genre }}</li>
+    </ul>
+    <a routerLink="/composer-list" class="float-right">Return to Composers</a>
+  </div>
+</div>

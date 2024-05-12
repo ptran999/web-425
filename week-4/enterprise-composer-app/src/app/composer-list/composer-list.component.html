@@ -1,0 +1,36 @@
+<!--
+    Title: composer-list.component.html
+    Author: Phuong Tran
+    Date: 03/31/2024
+    Description: composer-list template.
+-->
+
+<div class="form">
+  <input type="text" id="txtSearch" class="form-control" [formControl]="txtSearchControl">
+
+  <table class="table">
+    <thead class="thead-dark">
+      <tr>
+        <th scope="col">Composer ID</th>
+        <th scope="col">Full Name</th>
+        <th scope="col">Genre</th>
+      </tr>
+    </thead>
+    <tbody *ngFor = "let composer of composers | async">
+
+      <!-- loop over the composers object to populate the table -->
+      <tr >
+
+        <!-- Included routing for the ID link -->
+        <td scope="col">
+          <a routerLink="/composer-details/{{composer.composerId}}">
+          {{composer.composerId}}
+        </a>
+      </td>
+        <td scope="col">{{composer.fullName}}</td>
+        <td scope="col">{{composer.genre}}</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+

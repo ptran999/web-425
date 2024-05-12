@@ -1,0 +1,26 @@
+<!--
+    Title: sign-in.component.html
+    Author: Phuong Tran
+    Date: 04/07/2024
+    Description: Passing Data to Routes, Part 2.
+-->
+
+<!-- Sign-in template -->
+<div class="card">
+  <div class="card-body">
+    <h3 class="card-title">Sign in</h3>
+    <form class="card-text">
+      <div class="form-group">
+        <label for="user">Username</label>
+        <input type="text" class="form-control" id="user" placeholder="Username">
+      </div>
+      <div class="form-group">
+        <label for="pass">Password</label>
+        <input type="password" class="form-control" id="pass" placeholder="Password">
+      </div>
+      <div class="form-group">
+        <button class="btn btn-primary" (click)="signin()">Submit</button>
+      </div>
+    </form>
+  </div>
+</div>

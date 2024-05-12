@@ -1,0 +1,19 @@
+/*
+    Title: styles.scss
+    Author: Phuong Tran
+    Date: 8/05/2024
+    Description: Exercise 6.2 - Output Properties
+*/
+
+@import './theme';
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+.blue {
+  color: #2196F3;
+}
+
+.green {
+  color: #66BB6A;
+}

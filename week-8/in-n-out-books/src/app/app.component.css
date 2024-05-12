@@ -1,0 +1,16 @@
+/*
+    Title: app.component.css
+    Author: Phuong Tran
+    Date: 8/05/2024
+    Description: Exercise 5.3 - Data Tables
+*/
+
+.logo {
+  margin-top: 5px;
+}
+
+.main-container {
+  padding-top: 25px;
+  width: 80%;
+  margin: 0 auto;
+}

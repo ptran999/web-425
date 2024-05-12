@@ -1,0 +1,27 @@
+<!--
+    Title: wishlist.component.html
+    Author: Phuong Tran
+    Date: 8/05/2024
+    Description: Exercise 6.2 - Output Properties.
+-->
+
+<div fxLayout="column">
+  <app-wishlist-create (addItemEmitter)='updateItemsHandler($event)'></app-wishlist-create>
+  <mat-list fxFlex *ngIf="items && items.length > 0">
+    <mat-list-item *ngFor="let item of items">
+      <div mat-line>
+        Title: {{ item.title }}
+      </div>
+      <div mat-line>
+        Author: {{ item.authors }}
+      </div>
+    </mat-list-item>
+  </mat-list>
+  <mat-list fxFlex *ngIf="items.length === 0">
+    <div mat-line>
+      There are no items in your wishlist.
+    </div>
+  </mat-list>
+  <br>
+  <br>
+</div>
